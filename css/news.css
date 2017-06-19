@@ -3,12 +3,12 @@
   text-align: center;
 }
 
-.blockquote {
+.strong {
   align-content: center;
 }
 
 blockquote {
-  display: none;
+  display:none;
   font-family: Georgia, serif;
   font-size: 18px;
   font-style: italic;
