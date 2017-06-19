@@ -4,170 +4,190 @@
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.2.1.js"></script>
-  <script src="js/script.js"></script>
-  <link rel="shortcut icon" href="https://image.freepik.com/free-icon/movie-tickets-silhouette_318-35776.jpg">
+  <link rel="shortcut icon" href="http://www.clker.com/cliparts/k/Y/a/4/X/E/white-with-black-background-hi.png">
   <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
-
-
   <title>Ticket 254</title>
-
-
 </head>
 
 <body>
   <!-- page loader -->
+  <div class="container-fluid" id="pageloader">
 
-  <body onload="myFunction()" style="margin:0;">
-
-    <div id="loader"></div>
-
-    <div style="display:none;" id="myDiv" class="animate-bottom">
-      <!-- navigation bar -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid" id="nav">
-
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#newarrivals">Home</a>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="navbar-collapse-2">
-            <ul class="nav navbar-nav navbar-right">
-
-
-              <li><a href="#">Services</a></li>
-              <li><a href="#ticket">Ticket</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><button id="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></li>
-            </ul>
-          </div>
-        </div>
-        <!-- /.container -->
-      </nav>
-      <!-- /.navbar -->
-      <!-- login -->
-
-
-      <div id="id01" class="modal">
-
-        <form class="modal-content animate" action="/action_page.php">
-          <div class="imgcontainer">
-            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-            <img src="https://metrouk2.files.wordpress.com/2017/01/630733672.jpg?w=748&h=501&crop=1" alt="Avatar" class="avatar">
-          </div>
-
-          <div class="container">
-            <label><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
-
-            <label><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-
-            <button type="submit">Login</button>
-            <input type="checkbox" checked="checked"> Remember me
-          </div>
-
-          <div class="container" style="background-color:#f1f1f1">
-            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-            <span class="psw">Forgot <a href="#">password?</a></span>
-          </div>
-        </form>
-      </div>
-
-
-      <div class="container-fluid" id="newarrivals">
-        <h2>New Arrivals</h2>
-        <div class="col-md-2">
-          <img src="http://static.srcdn.com/wp-content/uploads/2016/09/Spider-Man-Homecoming-Tom-Holland.jpg" alt="spiderman homecoming" width="200px" height="200px">
-          <p>Spiderman Homecoming</p>
-        </div>
-        <div class="col-md-2">
-          <img src="https://www.wired.com/wp-content/uploads/2015/09/wonderwoman.jpg" alt="wonder woman" width="200px" height="200px">
-          <p>Wonder Woman</p>
-        </div>
-        <div class="col-md-2">
-          <img src="https://www.studiocity-macau.com/uploads/images/SC/Entertainment/Batman/batman_share.jpg" alt="Batman" width="200px" height="200px">
-          <p>Batman</p>
-        </div>
-        <div class="col-md-2">
-          <img src="http://www.themoviethemesong.com/wp-content/uploads/2016/05/12-biggest-takeaways-from-the-captain-america-civil-war-trailer-726727.jpg" alt="civil war" width="200px" height="200px">
-          <p>Civil War</p>
-        </div>
-        <div class="col-md-2">
-          <img src="https://vignette3.wikia.nocookie.net/marvelmovies/images/a/a3/The_Avengers-1.jpg/revision/latest?cb=20120207200038" alt="avengers" width="200px" height="200px">
-          <p>Avengers</p>
-        </div>
-        <div class="col-md-2">
-          <img src="https://upload.wikimedia.org/wikipedia/en/1/1d/The_Awakening_-_Risen.jpg" alt="the awakening" width="200px" height="200px">
-          <p>The Awakening</p>
-
+    <body onload="myFunction()">
+      <div id="loader" class="loader" style="margin-top:300px; margin-left:550px;">
+        <span id="green">t</span>
+        <span>i</span>
+        <span id="red">c</span>
+        <span>k</span>
+        <span id="green">e</span>
+        <span>t</span>
+        <span id="red">2</span>
+        <span id="green">5</span>
+        <span>4</span>
+        <div class="covers">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </div>
-      <div class="container-fluid" id="choose">
-        <h1>Book a Movie</h1>
-        <div id="movie">
+  </div>
 
-          <div class="row">
-            <div class="col-md-6">
-              <h2>Add movie details:</h2>
-              <form id="new-movie">
-                <div class="form-group">
-                  <label for="new-movie-name">Movie :</label>
+  <div id="myDiv">
 
-                  <select id="movielist" onchange="favmovie()" width="100px">
+    <!-- navigation bar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid" id="nav">
+
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#newarrivals">Home</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-2">
+          <ul class="nav navbar-nav navbar-right">
+
+
+            <li><a href="#">Services</a></li>
+            <li><a href="#ticket">Ticket</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><button id="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></li>
+          </ul>
+        </div>
+      </div>
+      <!-- /.container -->
+    </nav>
+    <!-- /.navbar -->
+    <!-- login -->
+
+
+    <div id="id01" class="modal">
+
+      <form class="modal-content animate" action="/action_page.php">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <img src="https://metrouk2.files.wordpress.com/2017/01/630733672.jpg?w=748&h=501&crop=1" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+          <label><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit">Login</button>
+          <input type="checkbox" checked="checked"> Remember me
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+
+
+    <div class="container-fluid" id="newarrivals">
+      <h2>New Arrivals</h2>
+      <div class="col-md-2">
+        <img src="http://static.srcdn.com/wp-content/uploads/2016/09/Spider-Man-Homecoming-Tom-Holland.jpg" alt="spiderman homecoming" width="200px" height="200px">
+        <p>Spiderman Homecoming</p>
+      </div>
+      <div class="col-md-2">
+        <img src="https://www.wired.com/wp-content/uploads/2015/09/wonderwoman.jpg" alt="wonder woman" width="200px" height="200px">
+        <p>Wonder Woman</p>
+      </div>
+      <div class="col-md-2">
+        <img src="https://www.studiocity-macau.com/uploads/images/SC/Entertainment/Batman/batman_share.jpg" alt="Batman" width="200px" height="200px">
+        <p>Batman</p>
+      </div>
+      <div class="col-md-2">
+        <img src="http://www.themoviethemesong.com/wp-content/uploads/2016/05/12-biggest-takeaways-from-the-captain-america-civil-war-trailer-726727.jpg" alt="civil war" width="200px" height="200px">
+        <p>Civil War</p>
+      </div>
+      <div class="col-md-2">
+        <img src="https://vignette3.wikia.nocookie.net/marvelmovies/images/a/a3/The_Avengers-1.jpg/revision/latest?cb=20120207200038" alt="avengers" width="200px" height="200px">
+        <p>Avengers</p>
+      </div>
+      <div class="col-md-2">
+        <img src="https://upload.wikimedia.org/wikipedia/en/1/1d/The_Awakening_-_Risen.jpg" alt="the awakening" width="200px" height="200px">
+        <p>The Awakening</p>
+
+      </div>
+    </div>
+    <div class="container-fluid" id="choose">
+      <h1>Book a Movie</h1>
+      <div id="movie">
+
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Add movie details:</h2>
+            <form id="new-movie">
+              <div class="form-group">
+                <label for="new-movie-name">Movie :</label>
+
+                <select id="movielist" onchange="favmovie()" width="100px">
                   <option>Wonder Woman</option>
                   <option>Batman</option>
                   <option>Civil War</option>
                   <option>Avengers</option>
                   <option>The Awakening</option>
                 </select>
-                </div>
-                <div class="form-group">
-                  <label for="new-time-range">Time:</label>
-                  <select id="timelist" onchange="timeRange()">
+              </div>
+              <div class="form-group">
+                <label for="new-time-range">Time:</label>
+                <select id="timelist" onchange="timeRange()">
                   <option>8.00am - 10.00am</option>
                   <option>11.00am - 1.00pm</option>
                   <option>2.00pm - 4.00pm</option>
                   <option>5.00pm - 7.00pm</option>
                   <option>8.00pm - 10.00pm</option>
                 </select>
-                </div>
-                <div class="form-group">
-                  <label for="new-age-range">Age :</label>
-                  <select id="agelist" onchange="ageRange()">
+              </div>
+              <div class="form-group">
+                <label for="new-age-range">Age :</label>
+                <select id="agelist" onchange="ageRange()">
                   <option>13 - 15 yrs</option>
                   <option>16 - 18 yrs</option>
                   <option>19 - 22 yrs</option>
                   <option>23 - 27 yrs</option>
                   <option>28 - 32 yrs</option>
                 </select>
-                </div>
+              </div>
 
-                <button type="submit" class="btn" id="button">Submit</button>
-              </form>
-            </div>
+              <button type="submit" class="btn" id="button">Submit</button>
+            </form>
           </div>
         </div>
       </div>
-
-
-      <div class="container-fluid" id="ticket">
-
-
-        <h2>Ticket</h2>
-        <ul id="out">
-          <li> Movie: <input type="text" id="mo"> </li>
-          <li> Time: <input type="text" id="ti"> </li>
-          <li> Age: <input type="text" id="ag"> </li>
-          <li> Cost: <input type="text" id="co"> </li>
-        </ul>
-      </div>
-
     </div>
-    <!-- end of "my div" -->
+
+
+    <div class="container-fluid" id="ticket">
+
+
+      <h2>Ticket</h2>
+      <ul id="out">
+        <li> Movie: <input type="text" id="mo"> </li>
+        <li> Time: <input type="text" id="ti"> </li>
+        <li> Age: <input type="text" id="ag"> </li>
+        <li> Cost: <input type="text" id="co"> </li>
+      </ul>
+    </div>
+  </div>
+
+  </div>
+  <!-- end of "my div" -->
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/script.js"></script>
 
   </body>
 

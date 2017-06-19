@@ -15,12 +15,13 @@ function ageRange() {
 var timeout;
 
 function myFunction() {
-  timeout = setTimeout(showPage, 3000);
+  timeout = setTimeout(showPage, 6000);
 }
 
 function showPage() {
-  document.getElementById("loader").style.display = "none";
+  document.getElementById("pageloader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
+
 }
 // Get the modal
 var modal = document.getElementById('id01');
