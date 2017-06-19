@@ -154,6 +154,8 @@ span.psw {
 }
 
 
+
+
 /* Change styles for span and cancel button on extra small screens */
 
 @media screen and (max-width: 300px) {
@@ -244,11 +246,6 @@ span.psw {
   display: none;
 }
 
-body {
-  font-family: 'Bubbler One', sans-serif;
-  color: black;
-  font-size: 16px;
-}
 
 
 /*book a movie background*/
@@ -271,6 +268,8 @@ h1 {
 h2 {
   text-align: center;
   font-family: 'Righteous', cursive;
+  color: silver;
+  font-size: 60px;
 }
 
 #movie {
@@ -303,4 +302,156 @@ h2 {
 
 #out li {
   list-style: none;
+}
+
+
+.container{
+  background-color: black;
+}
+
+.container-fluid{
+  background-color: black;
+}
+
+html{
+
+}
+
+
+
+#myCarousel1  :hover{
+  opacity: 0.8;
+}
+
+
+.cars {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: maroon;
+}
+
+.container:hover .overlay1 {
+  opacity: 0.6;
+}
+
+.textcars {
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.wonder {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: blue;
+}
+
+.container:hover .overlay2 {
+  opacity: 0.6;
+}
+
+.textwonder {
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.mummy {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: grey;
+}
+
+.container:hover .overlay3 {
+  opacity: 0.6;
+}
+
+.textmummy {
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.trans {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: grey;
+}
+
+.container:hover .overlay4 {
+  opacity: 0.6;
+}
+
+.texttrans {
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
