@@ -1,24 +1,27 @@
 body {
-font-family: 'Roboto Slab', serif;
+font-family: 'Bubbler One', sans-serif;
+  background-color: black;
+}
+
+p {
+  /*text-shadow: 2px 1px black;*/
+  color: white;
+  important;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .carousel-inner {
-  height: 430px;
+  height: 600px;
   width: 1200px;
 }
 
 #picture {
   border-radius: 8px;
   width: 1200px;
-  height: 430px;
-}
-
-p {
-  display: block;
-}
-
-body {
-  background-color: black;
+  height: 600px;
+  position: relative;
 }
 
 #galaxy {
@@ -26,22 +29,55 @@ body {
   height: 80%;
   width: 80%;
 }
-/*#henry{
-  background-image: url(imgnews/sky.jpg);
-  background-repeat: no-repeat;
+
+#guardian {
+  background-image: url(../imgnews/samsung.jpg);
   background-attachment: fixed;
-}*/
+  background-size: cover;
+}
+
+#henry {
+  background-image: url(../imgnews/thenry.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#woman {
+  background-image: url(../imgnews/woman.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#night {
+  background-image: url(../imgnews/rouugh.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#spider {
+  background-image: url(../imgnews/spider.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+#carz {
+  background-image: url(../imgnews/carz.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .col-md-8 {
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 .container-fluid {
+  margin-top: 1%;
   padding-left: 0px;
   padding-right: 0px;
 }
 
 .item {
-
   position: relative;
   overflow: hidden;
 }
@@ -59,20 +95,25 @@ body {
   transform: scale(1.1);
 }
 
-.row{
-  padding-top: 1%;
-  padding-bottom: 1%;
+.row {
+  padding-top: 0%;
+  padding-bottom: 0%;
 }
 
-#overlay {
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
+#videosList {
+  width: 1200px;
+  height: 600px;
+  overflow: hidden;
 }
+
+.video {
+  height: 600px;
+  width: 1200px;
+}
+
+
+/* Hide Play button + controls on iOS */
+
+video::-webkit-media-controls {
+  display: none !important;
 }

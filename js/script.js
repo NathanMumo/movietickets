@@ -31,8 +31,51 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-
 // // USER INTERFACE LOGIC
+
+
+//vedeo play on hover
+var figure = $(".video").hover( hoverVideo, hideVideo );
+
+function hoverVideo(e) {
+    $('video', this).get(0).play();
+}
+
+function hideVideo(e) {
+    $('video', this).get(0).pause();
+}
+
+
+// TOOLTIP
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // $(document).ready(function () {
