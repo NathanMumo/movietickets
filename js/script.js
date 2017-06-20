@@ -3,3 +3,13 @@ $('.txt').html(function(i, html) {
 
   return '<span>' + chars.join('</span><span>') + '</span>';
 });
+var timeout;
+
+function myFunction() {
+  timeout = setTimeout(showPage, 1000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
