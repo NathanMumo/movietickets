@@ -177,6 +177,8 @@ span.psw {
 
 #pageloader {
   text-align: center;
+  background-color: grey;
+  background-position: center;
 }
 
 .loader {
@@ -284,7 +286,7 @@ body {
 /*book a movie background*/
 
 #choose {
-  background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/09/amazing_spider_man_action_adventure_fantasy_movie_marvel-wallpaper.jpg);
+  background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/09/amazing_spider_man_action_adventure_fantasy_movie_marvel-wallpaper.jpg");
   margin: 100px;
   padding-left: 200px;
   border-style: solid;
@@ -324,7 +326,7 @@ h2 {
 }
 
 #ticket {
-  background-image: url(https://st.depositphotos.com/2185383/4533/v/450/depositphotos_45330105-stock-illustration-cinema-concept.jpg);
+  background-image: url("https://st.depositphotos.com/2185383/4533/v/450/depositphotos_45330105-stock-illustration-cinema-concept.jpg");
   box-shadow: 0 0 20px #000000;
   margin: 400px;
   margin-top: 20px;
