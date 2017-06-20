@@ -1,3 +1,7 @@
+body {
+font-family: 'Roboto Slab', serif;
+}
+
 .carousel-inner {
   height: 430px;
   width: 1200px;
@@ -19,29 +23,56 @@ body {
 
 #galaxy {
   border-radius: 8px;
-  height: 55%;
-  width: 55%;
+  height: 80%;
+  width: 80%;
 }
+/*#henry{
+  background-image: url(imgnews/sky.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}*/
 .col-md-8 {
   margin-top: 10%;
 }
+
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
 }
+
 .item {
+
   position: relative;
   overflow: hidden;
 }
+
 .item img {
   max-width: 100%;
-
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 .item:hover img {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.row{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#overlay {
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
 }
