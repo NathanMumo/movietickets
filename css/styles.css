@@ -154,8 +154,6 @@ span.psw {
 }
 
 
-
-
 /* Change styles for span and cancel button on extra small screens */
 
 @media screen and (max-width: 300px) {
@@ -178,9 +176,15 @@ span.psw {
 }
 
 #pageloader {
-  text-align: center;
-  background-color: grey;
-  background-position: center;
+  /*background: black;*/
+  background: -webkit-linear-gradient( black, black, grey, black, black);
+  background: -webkit-linear-gradient(left: black, grey, );
+  background-size: contain;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 400px;
+  padding-left: 90px;
 }
 
 .loader {
@@ -279,7 +283,6 @@ span {
 }
 
 
-
 /*book a movie background*/
 
 #choose {
@@ -336,25 +339,19 @@ h2 {
   list-style: none;
 }
 
-
-.container{
+.container {
   background-color: black;
 }
 
-.container-fluid{
+.container-fluid {
   background-color: black;
 }
 
-html{
+html {}
 
-}
-
-
-
-#myCarousel1  :hover{
+#myCarousel1 :hover {
   opacity: 0.8;
 }
-
 
 .cars {
   display: block;
