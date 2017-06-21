@@ -6,7 +6,7 @@ $('.txt').html(function(i, html) {
 var timeout;
 
 function myFunction() {
-  timeout = setTimeout(showPage, 1000);
+  timeout = setTimeout(showPage, 2000);
 }
 
 function showPage() {
