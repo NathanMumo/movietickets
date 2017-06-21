@@ -31,3 +31,72 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+<<<<<<< HEAD
+=======
+// // USER INTERFACE LOGIC
+
+
+//vedeo play on hover
+var figure = $(".video").hover( hoverVideo, hideVideo );
+
+function hoverVideo(e) {
+    $('video', this).get(0).play();
+}
+
+function hideVideo(e) {
+    $('video', this).get(0).pause();
+}
+
+
+// TOOLTIP
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $(document).ready(function () {
+// var allQuotes = $("blockquote");
+// var currentQuote = 0;
+//
+// function changeQuote() {
+//   $(allQuotes[currentQuote]).fadeOut(500, function () {
+//     if (currentQuote == allQuotes.length - 1 ) {
+//       currentQuote = 0;
+//     }else {
+//       currentQuote++;
+//     }
+//     $(allQuotes[currentQuote]).fadeIn(500)
+//
+//   });
+//
+// }
+// var quoteTime = setInterval(changeQuote,3000);
+//
+// });
+>>>>>>> ca086ff81444695d8bec4c7474f19f0a56c5686f

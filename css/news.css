@@ -2,9 +2,13 @@ body {
   font-family: 'Bubbler One', sans-serif;
   background-color: black;
 }
-section{
+
+section {
   padding: 50px;
+  font-family: 'Bubbler One', sans-serif;
+  background-color: black;
 }
+
 p {
   /*text-shadow: 2px 1px black;*/
   color: white;
@@ -16,12 +20,11 @@ p {
 
 .carousel-inner {
   height: 600px;
-  /*width: 1200px;*/
 }
 
 #picture {
   border-radius: 8px;
-  width: 1400px;
+  width: 1200px;
   height: 600px;
   position: relative;
 }
