@@ -1,100 +1,170 @@
-    #loader {
-      /*margin: 400px;*/
-      padding: 0;
-      height: 100%;
-      padding-top: 360px;
-      padding-bottom: 300px;
-    }
+#loader {
+  /*margin: 400px;*/
+  padding: 0;
+  height: 100%;
+  padding-top: 360px;
+  padding-bottom: 300px;
+}
 
-    #loader {
-      font-family: 'Cabin Condensed', sans-serif;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-    }
+#loader {
+  font-family: 'Cabin Condensed', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
 
-    svg {
-      font-weight: bold;
-      max-width: 600px;
-      height: auto;
-    }
+svg {
+  font-weight: bold;
+  max-width: 600px;
+  height: auto;
+}
 
-    #loader {
-      background: linear-gradient(282deg, #131414, #8f9d9d, #505656, #425252, #5d7b73, #3d4341, #1c1c18, #3a4746, #4f5867, #020101, #5d8181, #0a0b0b, #36303e, #647872);
-      background-size: 2800% 2800%;
-      -webkit-animation: AnimationName 24s ease infinite;
-      -moz-animation: AnimationName 24s ease infinite;
-      -o-animation: AnimationName 24s ease infinite;
-      animation: AnimationName 24s ease infinite;
-    }
+#loader {
+  background: linear-gradient(282deg, #131414, #8f9d9d, #505656, #425252, #5d7b73, #3d4341, #1c1c18, #3a4746, #4f5867, #020101, #5d8181, #0a0b0b, #36303e, #647872);
+  background-size: 2800% 2800%;
+  -webkit-animation: AnimationName 24s ease infinite;
+  -moz-animation: AnimationName 24s ease infinite;
+  -o-animation: AnimationName 24s ease infinite;
+  animation: AnimationName 24s ease infinite;
+}
 
-    @-webkit-keyframes AnimationName {
-      0% {
-        background-position: 0% 50%
-      }
-      50% {
-        background-position: 100% 51%
-      }
-      100% {
-        background-position: 0% 50%
-      }
-    }
-    /*end of page loader*/
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 51%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
 
-    .container-fluid {
-      background-color: black;
-    }
 
-    #myCarousel:hover {
-      opacity: 0.8;
-    }
+/*end of page loader*/
 
-    #myCarousel1 :hover {
-      opacity: 0.8;
-    }
 
-    h2 {
-      text-align: center;
-      font-family: 'Orbitron', sans-serif;
-    }
+/*navigation bar*/
 
-    #choose {
-      background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/09/amazing_spider_man_action_adventure_fantasy_movie_marvel-wallpaper.jpg);
-      margin: 100px;
-      padding-left: 200px;
-      border-style: solid;
-      border-color: white;
-      box-shadow: 0 0 20px #000000;
-      text-align: center;
-      font-size: 16px;
-    }
+.navbar-custom {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: black;
+  font-size: 19px;
+  font-weight: 400;
+}
 
-    h1 {
-      padding-right: 180px;
-    }
+.navbar-custom .navbar-toggle {
+  color: gray;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+}
 
-    #movie {
-      text-align: center;
-      padding-left: 120px;
-      padding-bottom: 10px;
-    }
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active {
+  outline: none;
+}
 
-    #button {
-      margin-left: 300px;
-    }
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+}
 
-    #button:hover {
-      opacity: 0.5;
-      color: black;
-      background-color: grey;
-    }
+.navbar-custom .navbar-brand:focus {
+  outline: none;
+}
+
+.navbar-custom a {
+  color: white;
+}
+
+
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: transparent;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    background: black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+#navhover {}
+
+/*end of navigation bar*/
+.container-fluid {
+  background-color: black;
+  margin-top: 0px;
+}
+#home {
+  margin-top: 60px;
+}
+#myCarousel:hover {
+  opacity: 0.8;
+}
+#myCarousel1 :hover {
+  opacity: 0.8;
+}
+h2 {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+#choose {
+  background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/09/amazing_spider_man_action_adventure_fantasy_movie_marvel-wallpaper.jpg);
+  margin: 50px;
+  padding-left: 200px;
+  border-style: solid;
+  border-color: white;
+  text-align: center;
+  font-size: 16px;
+}
+h1 {
+  padding-right: 180px;
+}
+#movie {
+  text-align: center;
+  padding-left: 120px;
+  padding-bottom: 10px;
+}
+#button {
+  margin-left: 300px;
+}
+#button:hover {
+  opacity: 0.5;
+  color: black;
+  background-color: grey;
+}
+#ticket {
+  background-image: url(https://st.depositphotos.com/2185383/4533/v/450/depositphotos_45330105-stock-illustration-cinema-concept.jpg);
+  border-style: solid;
+  margin: 400px;
+  margin-top: 20px;
+  font-weight: bold;
+  padding-left: 200px;
+  font-size: 18px;
+  color: black;
+  padding-right: 10px;
+}
+h3 {
+  text-align: center;
+  padding-right: 120px;
+}
+#qrcode {
+  float: right;
+}

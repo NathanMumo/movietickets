@@ -2,8 +2,11 @@
 <html>
 
 <head>
+
+  <link rel="stylesheet" href="/css/styles.min.css">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+
   <script src="js/jquery-3.2.1.js"></script>
   <script src="js/script.js"></script>
   <link rel="shortcut icon" href="http://www.iconsdb.com/icons/preview/black/ticket-xxl.png">
@@ -54,10 +57,52 @@
 
     </div>
     <!-- end of page loader -->
-    <div style="display:none;" id="myDiv">
 
-      <div class="container-fluid">
+
+    <div style="display:none;" id="myDiv">
+      <!-- navigation bar -->
+      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">
+                <i class="fa fa-play-circle"></i>ticket 254
+            </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+              <!-- Hidden li included to remove active class from home link when scrolled up past home section -->
+              <li class="hidden">
+                <a href="#page-top"></a>
+              </li>
+              <li>
+                <a id=navhover class="page-scroll" href="#home ">Home</a>
+              </li>
+              <li>
+                <a class="page-scroll" href="#news">News</a>
+              </li>
+              <li>
+                <a class="page-scroll" href="#ticket">My Ticket</a>
+              </li>
+              <li>
+                <a class="page-scroll" href="#another one">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+      </nav>
+
+
+
+      <!-- end of navigation bar -->
+      <div class="container-fluid">
+        <div class="container" id="home">
 
           <h2><strong>Latest Movies</strong></h2>
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -217,34 +262,39 @@
 
                     <select id="movielist" onchange="favmovie()" width="100px">
                   <option>Wonder Woman</option>
-                  <option>Batman</option>
+                  <option>LEGO:Batman</option>
                   <option>Civil War</option>
                   <option>Avengers</option>
-                  <option>The Awakening</option>
+                  <option>The Mummy</option>
+                  <option>The Book Of Henry</option>
+                  <option>Spiderman:home coming</option>
+                  <option>King Author</option>
+                  <option>All eyez on me</option>
+                  <option>Furious 8</option>
+                  <option>Hunters Prayer</option>
+                  <option>Cars3</option>
+                  <option>Rough Night</option>
+                  <option>Guardians Of The Galaxy</option>
                 </select>
                   </div>
                   <div class="form-group">
                     <label for="new-time-range">Time:</label>
                     <select id="timelist" onchange="timeRange()">
-                  <option>8.00am - 10.00am</option>
-                  <option>11.00am - 1.00pm</option>
-                  <option>2.00pm - 4.00pm</option>
-                  <option>5.00pm - 7.00pm</option>
-                  <option>8.00pm - 10.00pm</option>
+                  <option>08:00 - 14:30</option>
+                  <option>15.00 - 22.00</option>
+
                 </select>
                   </div>
                   <div class="form-group">
-                    <label for="new-age-range">Age :</label>
+                    <label for="new-age-range">Type:</label>
                     <select id="agelist" onchange="ageRange()">
-                  <option>13 - 15 yrs</option>
-                  <option>16 - 18 yrs</option>
-                  <option>19 - 22 yrs</option>
-                  <option>23 - 27 yrs</option>
-                  <option>28 - 32 yrs</option>
+                  <option>2D</option>
+                  <option>3D</option>
+
                 </select>
                   </div>
 
-                  <button type="submit" class="btn" id="button">Submit</button>
+                  <button type="submit" class="btn btn-primary" id="button">Submit</button>
                 </form>
               </div>
             </div>
@@ -255,13 +305,13 @@
         <div class="container-fluid" id="ticket">
 
 
-          <h2>Ticket</h2>
-          <ul id="out">
-            <li> Movie: <input type="text" id="mo"> </li>
-            <li> Time: <input type="text" id="ti"> </li>
-            <li> Age: <input type="text" id="ag"> </li>
-            <li> Cost: <input type="text" id="co"> </li>
-          </ul>
+          <h3>Ticket</h3>
+
+          <label>Movie:</label><input type="text" id="mo"> <br><br>
+          <label>Time:</label><input type="text" id="ti"> <br><br>
+          <label>Type:</label><input type="text" id="ag"> <br><br>
+          <label>Cost:</label><input type="text" id="co">
+          <img id="qrcode" src="img/TICKET.png" alt="ticket" width="100px" height="100px">
         </div>
 
       </div>
@@ -270,4 +320,4 @@
 
   </body>
 
-</html>
+  </html
