@@ -1,21 +1,20 @@
-# PIG DICE
+# TICKET 254
 # Author's Name:
- Christine Wasike
+ 1. Nathan Mumo
+ 2. Christine Wasike
+ 3. Samuel Mutegi
+ 4. Peter Achacha
+ 5. Emmanuel Mulatya
 # Project's Purpose:
-A web application that takes a number from a user and returns a range of numbers from 1 to the chosen number
-
-## Specs Sheet
-   1. Performs the ping pong function on integers.
-   2. Counts up to the provided number.
-   3. If the integer is divisible by 3 the output changes to "Ping".
-   4. If the integer is divisible by 5 the output changes to "Pong".
-   5. If the integer is divisible by both 3 and 5 the output changes to "Ping Pong".
+A web application that enables a user to get movie tickets. The ticket is sent to your email with a QR code for verification.With the application you
+can get updates on movies and you can also get news on what's hot on the entertainment scene globally.
 
 ## LANGUAGE SETUP/ INSTALLATION
    1. HTML
    2. CSS
    3. JavaScript
    4. jQuery and Bootstrap libraries
+   5. Bootstrap library
 
 
 ## License and Copyright
