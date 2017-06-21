@@ -15,7 +15,7 @@ function ageRange() {
 var timeout;
 
 function myFunction() {
-  timeout = setTimeout(showPage, 1000);
+  timeout = setTimeout(showPage, 100);
 }
 
 function showPage() {
