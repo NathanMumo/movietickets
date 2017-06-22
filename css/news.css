@@ -21,8 +21,11 @@ p {
 .carousel-inner {
   height: 600px;
 }
+#mySlider{
+  margin-top: 50px;
+}
 
-#picture {
+.picture {
   opacity;
   border-radius: 8px;
   width: 1200px;
@@ -32,7 +35,7 @@ p {
 
 #galaxy {
   border-radius: 8px;
-  height: 80%;
+  height: 80;
   width: 80%;
 }
 
@@ -43,9 +46,6 @@ p {
 }
 
 #guardian:hover {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
 }
 
 #henry {
@@ -54,9 +54,6 @@ p {
   background-size: cover;
 }
 #henry:hover {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
 }
 
 #woman {
@@ -65,9 +62,6 @@ p {
   background-size: cover;
 }
 #woman:hover {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
 }
 
 #night {
@@ -76,9 +70,6 @@ p {
   background-size: cover;
 }
 #night:hover {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
 }
 
 #spider {
@@ -87,9 +78,6 @@ p {
   background-size: contain;
 }
 #spider:hover {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
 }
 
 #carz {
@@ -99,9 +87,6 @@ p {
   background-repeat: no-repeat;
 }
 #carz:hover {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
 }
 
 .col-md-8 {
@@ -139,13 +124,47 @@ p {
   padding-bottom: 0%;
 }
 
-#videosList {
-  width: 1200px;
-  height: 600px;
-  overflow: hidden;
+/*navigation bar*/
+.navbar-custom {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: black;
+  font-size: 19px;
+  font-weight: 400;
 }
-
-.video {
-  height: 600px;
-  width: 1200px;
+.navbar-custom .navbar-toggle {
+  color: gray;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
 }
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active {
+  outline: none;
+}
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+}
+.navbar-custom .navbar-brand:focus {
+  outline: none;
+}
+.navbar-custom a {
+  color: white;
+}
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: transparent;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    background: black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+#navhover {}
+/*end of navigation bar*/:stuck_out_tongue:

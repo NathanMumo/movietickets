@@ -31,29 +31,56 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-<<<<<<< HEAD
-=======
-// // USER INTERFACE LOGIC
 
 
-//vedeo play on hover
-var figure = $(".video").hover( hoverVideo, hideVideo );
-
-function hoverVideo(e) {
-    $('video', this).get(0).play();
-}
-
-function hideVideo(e) {
-    $('video', this).get(0).pause();
-}
 
 
-// TOOLTIP
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip();
+
+
+$(document).ready(function () {
+  $('#woman, #eyes').on('click', function(e){
+    e.preventDefault();
+    var target= $(this).get(0).id == 'woman' ? $('#eyes') : $('#woman');
+    $('html, body').stop().animate({
+      scrollTop: target.offset().top
+    }, 1000);
+  });
+  $('#guardian, #guard').on('click', function(e){
+    e.preventDefault();
+    var target= $(this).get(0).id == 'guardian' ? $('#guard') : $('#guardian');
+    $('html, body').stop().animate({
+      scrollTop: target.offset().top
+    }, 1000);
+  });
+  $('#henry, #bookie').on('click', function(e){
+    e.preventDefault();
+    var target= $(this).get(0).id == 'henry' ? $('#bookie') : $('#henry');
+    $('html, body').stop().animate({
+      scrollTop: target.offset().top
+    }, 1000);
+  });
+  $('#night, #even').on('click', function(e){
+    e.preventDefault();
+    var target= $(this).get(0).id == 'night' ? $('#even') : $('#night');
+    $('html, body').stop().animate({
+      scrollTop: target.offset().top
+    }, 1000);
+  });
+  $('#carz, #cars').on('click', function(e){
+    e.preventDefault();
+    var target= $(this).get(0).id == 'carz' ? $('#cars') : $('#carz');
+    $('html, body').stop().animate({
+      scrollTop: target.offset().top
+    }, 1000);
+  });
+  $('#spider, #spidermanhc').on('click', function(e){
+    e.preventDefault();
+    var target= $(this).get(0).id == 'spider' ? $('#spidermanhc') : $('#spider');
+    $('html, body').stop().animate({
+      scrollTop: target.offset().top
+    }, 1000);
+  });
 });
-
-
 
 
 
@@ -99,4 +126,3 @@ $(function () {
 // var quoteTime = setInterval(changeQuote,3000);
 //
 // });
->>>>>>> ca086ff81444695d8bec4c7474f19f0a56c5686f
