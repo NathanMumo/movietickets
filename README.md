@@ -18,4 +18,8 @@ can get updates on movies and you can also get news on what's hot on the enterta
 
 
 ## License and Copyright
+<<<<<<< HEAD
+[MIT license](license)
+=======
 [Ticket 254](license)
+>>>>>>> fee57811467defa362c4e5170ac9a864cf239b7b

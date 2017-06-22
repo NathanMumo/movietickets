@@ -15,63 +15,56 @@ function ageRange() {
 var timeout;
 
 function myFunction() {
-  timeout = setTimeout(showPage, 3000);
+
+  timeout = setTimeout(showPage, 4500);
 }
 
 function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
 }
-// Get the modal
-var modal = document.getElementById('id01');
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
 
 // // USER INTERFACE LOGIC
-$(document).ready(function () {
-  $('#woman, #eyes').on('click', function(e){
+$(document).ready(function() {
+  $('#woman, #eyes').on('click', function(e) {
     e.preventDefault();
-    var target= $(this).get(0).id == 'woman' ? $('#eyes') : $('#woman');
+    var target = $(this).get(0).id == 'woman' ? $('#eyes') : $('#woman');
     $('html, body').stop().animate({
       scrollTop: target.offset().top
     }, 1000);
   });
-  $('#guardian, #guard').on('click', function(e){
+  $('#guardian, #guard').on('click', function(e) {
     e.preventDefault();
-    var target= $(this).get(0).id == 'guardian' ? $('#guard') : $('#guardian');
+    var target = $(this).get(0).id == 'guardian' ? $('#guard') : $('#guardian');
     $('html, body').stop().animate({
       scrollTop: target.offset().top
     }, 1000);
   });
-  $('#henry, #bookie').on('click', function(e){
+  $('#henry, #bookie').on('click', function(e) {
     e.preventDefault();
-    var target= $(this).get(0).id == 'henry' ? $('#bookie') : $('#henry');
+    var target = $(this).get(0).id == 'henry' ? $('#bookie') : $('#henry');
     $('html, body').stop().animate({
       scrollTop: target.offset().top
     }, 1000);
   });
-  $('#night, #even').on('click', function(e){
+  $('#night, #even').on('click', function(e) {
     e.preventDefault();
-    var target= $(this).get(0).id == 'night' ? $('#even') : $('#night');
+    var target = $(this).get(0).id == 'night' ? $('#even') : $('#night');
     $('html, body').stop().animate({
       scrollTop: target.offset().top
     }, 1000);
   });
-  $('#carz, #cars').on('click', function(e){
+  $('#carz, #cars').on('click', function(e) {
     e.preventDefault();
-    var target= $(this).get(0).id == 'carz' ? $('#cars') : $('#carz');
+    var target = $(this).get(0).id == 'carz' ? $('#cars') : $('#carz');
     $('html, body').stop().animate({
       scrollTop: target.offset().top
     }, 1000);
   });
-  $('#spider, #spidermanhc').on('click', function(e){
+  $('#spider, #spidermanhc').on('click', function(e) {
     e.preventDefault();
-    var target= $(this).get(0).id == 'spider' ? $('#spidermanhc') : $('#spider');
+    var target = $(this).get(0).id == 'spider' ? $('#spidermanhc') : $('#spider');
     $('html, body').stop().animate({
       scrollTop: target.offset().top
     }, 1000);
