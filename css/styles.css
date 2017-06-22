@@ -1,5 +1,4 @@
 #loader {
-  /*margin: 400px;*/
   padding: 0;
   height: 100%;
   padding-top: 338px;
@@ -133,7 +132,7 @@ svg {
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: 1px;
-    background: transparent;
+    background: black;
     -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
@@ -145,7 +144,6 @@ svg {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
-#navhover {}
 
 /*end of navigation bar*/
 .container-fluid {
@@ -153,7 +151,7 @@ svg {
   margin-top: 0px;
 }
 #home {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 #myCarousel:hover {
   opacity: 0.8;
@@ -225,3 +223,9 @@ h3 {
 }
 
 /*end of fade in page transition*/
+.contacts {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
