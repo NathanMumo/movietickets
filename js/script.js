@@ -15,27 +15,13 @@ function ageRange() {
 var timeout;
 
 function myFunction() {
-  timeout = setTimeout(showPage, 3000);
+  timeout = setTimeout(showPage, 4500;
 }
 
 function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
 }
-// Get the modal
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-
-
-
-
-
 
 $(document).ready(function () {
   $('#woman, #eyes').on('click', function(e){
@@ -81,48 +67,3 @@ $(document).ready(function () {
     }, 1000);
   });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// $(document).ready(function () {
-// var allQuotes = $("blockquote");
-// var currentQuote = 0;
-//
-// function changeQuote() {
-//   $(allQuotes[currentQuote]).fadeOut(500, function () {
-//     if (currentQuote == allQuotes.length - 1 ) {
-//       currentQuote = 0;
-//     }else {
-//       currentQuote++;
-//     }
-//     $(allQuotes[currentQuote]).fadeIn(500)
-//
-//   });
-//
-// }
-// var quoteTime = setInterval(changeQuote,3000);
-//
-// });
