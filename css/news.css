@@ -21,12 +21,12 @@ p {
 .carousel-inner {
   height: 600px;
 }
-#mySlider{
+
+#mySlider {
   margin-top: 50px;
 }
 
-#picture {
-  opacity;
+.picture {
   border-radius: 8px;
   width: 1200px;
   height: 600px;
@@ -34,8 +34,7 @@ p {
 }
 
 #galaxy {
-  border-radius: 8px;
-  height: 80%;
+  height: 80;
   width: 80%;
 }
 
@@ -44,9 +43,9 @@ p {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
-
 }
 
+#guardian:hover {}
 
 #henry {
   background-image: url(../imgnews/thenry.jpg);
@@ -78,6 +77,8 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+#carz:hover {}
 
 .col-md-8 {
   margin-top: 15%;
@@ -113,6 +114,8 @@ p {
   padding-top: 0%;
   padding-bottom: 0%;
 }
+
+
 /*navigation bar*/
 
 .navbar-custom {
@@ -145,8 +148,6 @@ p {
   color: white;
 }
 
-
-}
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
@@ -157,13 +158,12 @@ p {
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
-
   .navbar-custom.top-nav-collapse {
     padding: 0;
     background: black;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
-#navhover {}
+
 
 /*end of navigation bar*/
