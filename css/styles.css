@@ -165,7 +165,10 @@ h2 {
 }
 #choose {
   background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/09/amazing_spider_man_action_adventure_fantasy_movie_marvel-wallpaper.jpg);
-  margin: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 90px;
+  padding-top: 40px;
   padding-left: 200px;
   border-style: solid;
   border-color: white;
@@ -191,8 +194,11 @@ h1 {
 #ticket {
   background-image: url(https://st.depositphotos.com/2185383/4533/v/450/depositphotos_45330105-stock-illustration-cinema-concept.jpg);
   border-style: solid;
-  margin: 400px;
+  border-color: white;
+  margin-left: 300px;
+  margin-right: 300px;
   margin-top: 20px;
+  margin-bottom: 20px;
   font-weight: bold;
   padding-left: 200px;
   font-size: 18px;
@@ -209,8 +215,8 @@ h3 {
 
 /*fade in page transition*/
 .animate-in {
-  -webkit-animation: fadeIn .7s ease-in;
-  animation: fadeIn .7s ease-in;
+  -webkit-animation: fadeIn .9s ease-in;
+  animation: fadeIn .9s ease-in;
 }
 @-webkit-keyframes fadeIn {
   from {
