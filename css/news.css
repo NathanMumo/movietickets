@@ -1,0 +1,169 @@
+body {
+  font-family: 'Bubbler One', sans-serif;
+  background-color: black;
+}
+
+section {
+  padding: 50px;
+  font-family: 'Bubbler One', sans-serif;
+  background-color: black;
+}
+
+p {
+  /*text-shadow: 2px 1px black;*/
+  color: white;
+  important;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.carousel-inner {
+  height: 600px;
+}
+#mySlider{
+  margin-top: 50px;
+}
+
+#picture {
+  opacity;
+  border-radius: 8px;
+  width: 1200px;
+  height: 600px;
+  position: relative;
+}
+
+#galaxy {
+  border-radius: 8px;
+  height: 80%;
+  width: 80%;
+}
+
+#guardian {
+  background-image: url(../imgnews/samsung.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+
+}
+
+
+#henry {
+  background-image: url(../imgnews/thenry.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#woman {
+  background-image: url(../imgnews/woman.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#night {
+  background-image: url(../imgnews/rouugh.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#spider {
+  background-image: url(../imgnews/spider.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+#carz {
+  background-image: url(../imgnews/carz.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.col-md-8 {
+  margin-top: 15%;
+}
+
+.container-fluid {
+  margin-top: 1%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.item {
+  position: relative;
+  overflow: hidden;
+}
+
+.item img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.item:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.row {
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+/*navigation bar*/
+
+.navbar-custom {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: black;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.navbar-custom .navbar-toggle {
+  color: gray;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+}
+
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active {
+  outline: none;
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+  outline: none;
+}
+
+.navbar-custom a {
+  color: white;
+}
+
+
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: transparent;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    background: black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+#navhover {}
+
+/*end of navigation bar*/
