@@ -193,8 +193,10 @@ h1 {
 #ticket {
   background-image: url(https://st.depositphotos.com/2185383/4533/v/450/depositphotos_45330105-stock-illustration-cinema-concept.jpg);
   border-style: solid;
-  margin: 400px;
+  margin-left: 400px;
+  margin-right: 400px;
   margin-top: 20px;
+  margin-bottom: 20px;
   font-weight: bold;
   padding-left: 200px;
   font-size: 18px;

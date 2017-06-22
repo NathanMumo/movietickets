@@ -4,7 +4,7 @@ body {
 }
 
 section {
-  padding: 50px;
+  padding: 160px;
   font-family: 'Bubbler One', sans-serif;
   background-color: black;
 }
@@ -14,19 +14,21 @@ p {
   color: white;
   important;
   display: block;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
 }
 
 .carousel-inner {
+  border-radius: 8px;
+  margin-left: 0px;
   height: 600px;
 }
-
-#mySlider {
+#mySlider{
   margin-top: 50px;
 }
 
 .picture {
+  opacity;
   border-radius: 8px;
   width: 1200px;
   height: 600px;
@@ -34,6 +36,7 @@ p {
 }
 
 #galaxy {
+  border-radius: 8px;
   height: 80;
   width: 80%;
 }
@@ -42,15 +45,17 @@ p {
   background-image: url(../imgnews/samsung.jpg);
   background-attachment: fixed;
   background-size: cover;
-  position: relative;
 }
 
-#guardian:hover {}
+#guardian:hover {
+}
 
 #henry {
   background-image: url(../imgnews/thenry.jpg);
   background-attachment: fixed;
   background-size: cover;
+}
+#henry:hover {
 }
 
 #woman {
@@ -58,17 +63,23 @@ p {
   background-attachment: fixed;
   background-size: cover;
 }
+#woman:hover {
+}
 
 #night {
   background-image: url(../imgnews/rouugh.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
+#night:hover {
+}
 
 #spider {
   background-image: url(../imgnews/spider.jpg);
   background-attachment: fixed;
   background-size: contain;
+}
+#spider:hover {
 }
 
 #carz {
@@ -77,8 +88,8 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-#carz:hover {}
+#carz:hover {
+}
 
 .col-md-8 {
   margin-top: 15%;
@@ -115,9 +126,7 @@ p {
   padding-bottom: 0%;
 }
 
-
 /*navigation bar*/
-
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -125,29 +134,24 @@ p {
   font-size: 19px;
   font-weight: 400;
 }
-
 .navbar-custom .navbar-toggle {
   color: gray;
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 12px;
 }
-
 .navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active {
   outline: none;
 }
-
 .navbar-custom .navbar-brand {
   font-weight: 700;
 }
-
 .navbar-custom .navbar-brand:focus {
   outline: none;
 }
-
 .navbar-custom a {
   color: white;
 }
-
+}
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
@@ -164,6 +168,5 @@ p {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
-
-
-/*end of navigation bar*/
+#navhover {}
+/*end of navigation bar*/:stuck_out_tongue:
