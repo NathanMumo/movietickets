@@ -208,6 +208,8 @@ h3 {
 #qrcode {
   float: right;
 }
+
+/*fade in page transition*/
 .animate-in {
   -webkit-animation: fadeIn .7s ease-in;
   animation: fadeIn .7s ease-in;
@@ -221,3 +223,5 @@ h3 {
     opacity: 1;
   }
 }
+
+/*end of fade in page transition*/
