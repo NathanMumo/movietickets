@@ -23,6 +23,7 @@ function showPage() {
   document.getElementById("myDiv").style.display = "block";
 }
 
+
 $(document).ready(function () {
   $('#woman, #eyes').on('click', function(e){
     e.preventDefault();

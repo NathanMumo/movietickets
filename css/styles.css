@@ -193,3 +193,11 @@ h3 {
 #qrcode {
   float: right;
 }
+.animate-in {
+    -webkit-animation: fadeIn .7s ease-in;
+    animation: fadeIn .7s ease-in;
+}
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
