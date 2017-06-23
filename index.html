@@ -294,8 +294,8 @@
                     <div class="form-group">
                       <label for="new-age-range">Type:</label>
                       <select id="agelist" onchange="ageRange()">
-                  <option>2D</option>
-                  <option>3D</option>
+                  <option>Two D</option>
+                  <option>Three D</option>
 
 
                 </select>
@@ -303,14 +303,14 @@
                     <div class="form-group">
                       <label for="new-age-range">Payment:</label>
                       <select id="agelist" onchange="ageRange()">
-                  <option><img src="" alt=""></option>
-                  <option><img src="" alt=""></option>
-                  <option><img src="" alt=""></option>
-                  <option><img src="" alt=""></option>
+                  <option>M-pesa</option>
+                  <option>Paypal</option>
+                  <option>Airtel money</option>
+                  <option>Visa</option>
                 </select>
                     </div>
 
-                    <button type="submit" class="btn btn-primary" id="button">Submit</button>
+                    <a href="#ticket"><button onclick="toggle()" type="button" class="btn btn-primary" id="button">Submit</button ></a>
                   </form>
                 </div>
               </div>
@@ -318,7 +318,7 @@
           </div>
 
 
-          <div class="container-fluid" id="ticket">
+          <div class="container-fluid" id="ticket" style="display:none;">
 
 
             <h3>Ticket</h3>
@@ -326,7 +326,7 @@
             <label>Movie:</label><input type="text" id="mo"> <br><br>
             <label>Time:</label><input type="text" id="ti"> <br><br>
             <label>Type:</label><input type="text" id="ag"> <br><br>
-            <label>Cost:</label><input type="text" id="co">
+            <!-- <label>Cost:</label><input type="text" id="co"> -->
             <img id="qrcode" src="img/TICKET.png" alt="ticket" width="100px" height="100px">
           </div>
 

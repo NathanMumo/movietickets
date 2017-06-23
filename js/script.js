@@ -24,6 +24,10 @@ function showPage() {
   document.getElementById("myDiv").style.display = "block";
 }
 
+function toggle() {
+  document.getElementById("ticket").style.display = "block";
+
+}
 
 // // USER INTERFACE LOGIC
 $(document).ready(function() {
