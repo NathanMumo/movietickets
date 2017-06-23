@@ -23,4 +23,4 @@ can get updates on movies and you can also get news on what's hot on the enterta
 ## License and Copyright
 
 License [Ticket 254](license)<br>
-Your site is published at [https://nathanmumo.github.io/movietickets/]
+Your site is published at [https://nathanmumo.github.io/movietickets/index.html]
