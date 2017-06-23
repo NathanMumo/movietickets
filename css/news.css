@@ -18,7 +18,6 @@ p {
 }
 
 .carousel-inner {
-  border-radius: 8px;
   height: 600px;
   margin-left: 0px;
 }
@@ -45,6 +44,7 @@ p {
   background-image: url(../imgnews/samsung.jpg);
   background-attachment: fixed;
   background-size: cover;
+  position: relative;
 }
 
 #guardian:hover {}
