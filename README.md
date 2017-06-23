@@ -8,6 +8,9 @@
 # Project's Purpose:
 A web application that enables a user to get movie tickets. The ticket is sent to your email with a QR code for verification.With the application you
 can get updates on movies and you can also get news on what's hot on the entertainment scene globally.
+# Specs Sheet
+1. The user needs a working computer with internet access
+2. Partner cinemas need a QR scanner app on appropriate devices i.e computers and phones to scan th eQR code on the  online ticket of the user
 
 ## LANGUAGE SETUP/ INSTALLATION
    1. HTML
@@ -18,8 +21,5 @@ can get updates on movies and you can also get news on what's hot on the enterta
 
 
 ## License and Copyright
-<<<<<<< HEAD
-[MIT license](license)
-=======
+
 [Ticket 254](license)
->>>>>>> fee57811467defa362c4e5170ac9a864cf239b7b
