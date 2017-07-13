@@ -16,6 +16,23 @@ p {
   font-size: 22px;
   font-weight: bold;
 }
+/*fade in page transition*/
+.animate-in {
+  -webkit-animation: fadeIn .9s ease-in;
+  animation: fadeIn .9s ease-in;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/*end of fade in page transition*/
+
 
 .carousel-inner {
   height: 600px;
@@ -177,3 +194,11 @@ p {
   font-size: 30px;
   margin-top: 15px;
 }
+/** For Desktops **/
+#sidebar {display: block; float: right; width: 320px;}
+
+/** For Phones **/
+.r_mobi.r_phone #sidebar {display: none;}
+
+/** For Tablets in Landscape Orientation **/
+.r_mobi.r_tablet.r_landscape #sidebar {display: block; width: 35%;}
